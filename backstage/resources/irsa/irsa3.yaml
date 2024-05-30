@@ -1,0 +1,11 @@
+resources:
+  policies:
+    - name: "test"
+      policy:
+        sid: "test"
+        effect: "Allow"
+        actions: 
+          - "test"
+        resources:
+          - "test"
+    

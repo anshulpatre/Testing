@@ -1,0 +1,12 @@
+
+resources:
+  policies:
+    - name: "test-policy"
+      policy:
+        sid: "test-sid"
+        effect: "Deny"
+        actions: 
+          - "secretsmanager:GetSecretValue"
+        resources:
+          - "test"
+    

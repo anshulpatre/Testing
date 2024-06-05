@@ -1,0 +1,12 @@
+resources:
+  policies:
+    - name: "anshultest"
+    statements:
+        sid: "test"
+        effect: "Allow"
+        actions:
+          - "test"
+          - "test1"
+        resources:
+          - "test"
+    

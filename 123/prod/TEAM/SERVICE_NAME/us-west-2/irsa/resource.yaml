@@ -1,6 +1,6 @@
 resources:
   policies:
-    - name: ""
+    - name: "fdvfd"
     statements:
         sid: ""
         effect: "Allow"

@@ -1,9 +1,9 @@
 resources:
   policies:
-    - name: ""
+    - name: "fdvfd"
     statements:
         sid: ""
-        effect: "Deny"
+        effect: "Allow"
         actions:
           - ""
         resources:

@@ -1,0 +1,10 @@
+resources:
+  policies:
+    name: cccccc
+    statements:
+      - sid: ''
+        effect: Allow
+        actions:
+          - ''
+        resources:
+          - ''

@@ -1,6 +1,6 @@
 resources:
   policies:
-    name: cccccc
+    name: qqqq
     statements:
       - sid: ''
         effect: Allow

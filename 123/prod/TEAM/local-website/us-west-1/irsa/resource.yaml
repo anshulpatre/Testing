@@ -1,0 +1,10 @@
+resources:
+  policies:
+    name: test
+    statements:
+      - sid: test
+        effect: Allow
+        actions:
+          - test
+        resources:
+          - test

@@ -1,0 +1,16 @@
+resources:
+  policies:
+    name: "test"
+    statements:
+      - sid: "test"
+        effect: "Allow"
+        actions:
+          - "test"
+        resources:
+          - "test"
+      - sid: "test2"
+        effect: "Deny"
+        actions:
+          - "test2"
+        resources:
+          - "test2"

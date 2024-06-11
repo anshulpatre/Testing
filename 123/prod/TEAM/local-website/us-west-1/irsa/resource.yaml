@@ -1,18 +1,4 @@
 resources:
   policies:
-    name: "final test edit"
-    statements:
-      - sid: "test"
-        effect: "Allow"
-        actions:
-          - "action1"
-          - "action2"
-        resources:
-          - "res2"
-          - "res1"
-      - sid: "test2"
-        effect: "Deny"
-        actions:
-          - "testaction"
-        resources:
-          - "test_res"
+    name: ""
+    statements: []

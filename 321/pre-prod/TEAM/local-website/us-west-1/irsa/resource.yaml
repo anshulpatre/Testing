@@ -1,0 +1,4 @@
+resources:
+  policies:
+    name: "f"
+    statements: []

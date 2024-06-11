@@ -9,7 +9,7 @@ resources:
           - "action2"
         resources:
           - "res2"
-          - "res1_edit"
+          - "res1"
       - sid: "test2"
         effect: "Deny"
         actions:

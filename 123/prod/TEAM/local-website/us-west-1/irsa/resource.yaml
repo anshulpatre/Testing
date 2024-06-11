@@ -1,4 +1,4 @@
 resources:
   policies:
-    name: "test"
+    name: "test_edit"
     statements: []

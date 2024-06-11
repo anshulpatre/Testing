@@ -1,4 +1,4 @@
 resources:
   policies:
-    name: ""
+    name: "test"
     statements: []

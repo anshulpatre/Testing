@@ -9,10 +9,10 @@ resources:
           - "action2"
         resources:
           - "res2"
-          - "res1"
+          - "res1_edit"
       - sid: "test2"
         effect: "Deny"
         actions:
           - "testaction"
         resources:
-          - "test_res_edit"
+          - "test_res"

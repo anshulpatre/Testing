@@ -1,10 +1,4 @@
 resources:
   policies:
-    name: test
-    statements:
-      - sid: test
-        effect: Allow
-        actions:
-          - tets
-        resources:
-          - test
+    name: "test_edit"
+    statements: []

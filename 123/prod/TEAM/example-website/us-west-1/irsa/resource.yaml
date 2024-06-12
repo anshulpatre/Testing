@@ -1,6 +1,6 @@
 resources:
   policies:
-    name: "test"
+    name: "test_name"
     statements:
       - sid: "rr"
         effect: "Allow"
@@ -8,3 +8,9 @@ resources:
           - "rr"
         resources:
           - "rr"
+      - sid: "dd"
+        effect: "Allow"
+        actions:
+          - "dd"
+        resources:
+          - "dd"

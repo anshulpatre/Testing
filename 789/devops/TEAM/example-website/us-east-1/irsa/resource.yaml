@@ -1,0 +1,10 @@
+resources:
+  policies:
+    name: "test_pre-prod"
+    statements:
+      - sid: "test"
+        effect: "Allow"
+        actions:
+          - "test"
+        resources:
+          - "test"

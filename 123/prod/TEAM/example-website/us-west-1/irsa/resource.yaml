@@ -1,10 +1,10 @@
 resources:
   policies:
-    name: "test_edit_from_github"
+    name: "test"
     statements:
-      - sid: "test"
+      - sid: "rr"
         effect: "Allow"
         actions:
-          - "test"
+          - "rr"
         resources:
-          - "tes"
+          - "rr"

@@ -1,0 +1,12 @@
+resources:
+  policies:
+    name: "new"
+    statements:
+      - sid: "new"
+        effect: "Allow"
+        actions:
+          - "new"
+          - "new"
+        resources:
+          - "new"
+          - "new"

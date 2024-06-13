@@ -1,0 +1,12 @@
+resources:
+  policies:
+    name: "yyy"
+    statements:
+      - sid: "yy"
+        effect: "Allow"
+        actions:
+          - "uu"
+          - "mkk"
+        resources:
+          - "kkk"
+          - "kkk"

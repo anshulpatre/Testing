@@ -1,4 +1,10 @@
 resources:
   policies:
-    name: ""
-    statements: []
+    name: "new_use1"
+    statements:
+      - sid: "new"
+        effect: "Allow"
+        actions:
+          - "new"
+        resources:
+          - "use1"

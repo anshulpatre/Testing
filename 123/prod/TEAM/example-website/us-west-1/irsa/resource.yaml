@@ -1,16 +1,18 @@
 resources:
   policies:
-    name: "test_name"
+    name: "yyy_edit"
     statements:
-      - sid: "rr"
+      - sid: "yy"
         effect: "Allow"
         actions:
-          - "rr"
+          - "uu"
+          - "mkk"
         resources:
-          - "rr"
-      - sid: "dd"
+          - "kkk"
+          - "kkk"
+      - sid: "edit"
         effect: "Allow"
         actions:
-          - "dd"
+          - "edit"
         resources:
-          - "dd"
+          - "edit"

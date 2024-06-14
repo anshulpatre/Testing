@@ -5,7 +5,7 @@ resources:
   subnet_ids: ["subnet-989jhj", "subnet-878jh8"]
   engine_version: ""
   instance_type: ""
-  allocated_storage: 10
+  allocated_storage: ["10","90", "9000"]
   username: "admin"
   password: "admin"
   engine: "postgres"

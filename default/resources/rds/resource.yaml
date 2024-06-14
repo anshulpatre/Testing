@@ -5,6 +5,9 @@ resources:
   - nested_list1:
       - nested_item1
       - nested_item2
+  - nested_list2:
+      - nested_item1
+      - nested_item2
   parameter_group_suffix: "latest"
   parameter_group_family: "latest"
   engine_version: ""

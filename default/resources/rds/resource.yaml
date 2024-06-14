@@ -2,7 +2,7 @@ resources:
 - service_suffix: "rds"
   parameter_group_suffix: "latest"
   parameter_group_family: "latest"
-  subnet_ids: []
+  subnet_ids: ["subnet-989jhj", "subnet-878jh8"]
   engine_version: ""
   instance_type: ""
   allocated_storage: 10

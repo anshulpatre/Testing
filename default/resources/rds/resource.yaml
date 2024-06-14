@@ -1,13 +1,13 @@
 resources:
 - service_suffix: "rds"
+  subnet_ids: ["subnet-989jhj", "subnet-878jh8"]
+  test_key:
+  - "test_value"
   parameter_group_suffix: "latest"
   parameter_group_family: "latest"
-  subnet_ids: ["subnet-989jhj", "subnet-878jh8"]
   engine_version: ""
   instance_type: ""
-  allocated_storage: 
-    - "10"
-    - "70"
+  allocated_storage: 10
   username: "admin"
   password: "admin"
   engine: "postgres"
@@ -15,3 +15,4 @@ resources:
   port: 5432
   auto_minor_version_upgrade: false
   apply_immediately: true
+  

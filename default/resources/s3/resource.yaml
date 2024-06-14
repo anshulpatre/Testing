@@ -2,7 +2,7 @@ resources:
 - bucket_prefix: "test"
   force_destroy: false
   acl: "private"
-  expiration: 0  //[]
+  expiration: ["ds", "csdc"]
   object_ownership: "BucketOwnerEnforced"
   versioning_configuration_status: "Disabled"
   disable_ss3_s3: false

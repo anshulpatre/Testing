@@ -8,6 +8,14 @@ resources:
   - nested_list2:
       - nested_item1
       - nested_item2
+
+  map_of_values:
+  key1: value1
+  key2: value2
+  key3: value3
+
+
+  
   parameter_group_suffix: "latest"
   parameter_group_family: "latest"
   engine_version: ""

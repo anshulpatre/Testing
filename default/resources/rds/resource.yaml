@@ -1,10 +1,11 @@
 resources:
 - service_suffix: "rds"
   subnet_ids: ["subnet-989jhj", "subnet-878jh8"]
-  list_of_values:
-  - item1
-  - item2
-  - item3
+  nested_list:
+  - - nested_item1
+    - nested_item2
+  - - nested_item3
+    - nested_item4
   parameter_group_suffix: "latest"
   parameter_group_family: "latest"
   engine_version: ""

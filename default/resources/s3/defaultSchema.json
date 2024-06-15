@@ -34,7 +34,7 @@
           },
           "disable_ss3_s3": {
             "type": "boolean",
-            "default": false
+            "default": true
           }
         },
         "required": [

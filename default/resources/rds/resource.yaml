@@ -1,41 +1,6 @@
 resources:
 - service_suffix: "rds"
   subnet_ids: ["subnet-989jhj", "subnet-878jh8"]
-  nested_list:
-  - nested_list1:
-      - nested_item1
-      - nested_item2
-  - nested_list2:
-      - nested_item1
-      - nested_item2
-
-  map_of_values:
-    key1: value1
-    key2: value2
-    key3: value3
-
-  nested_map_with_list:
-    parent_key:
-      child_list:
-        - child_list_item1
-        - child_list_item2
-        
-  parent_key:
-    child_list:
-      - child_list_item1
-      - child_list_item2
-
-  spec:
-    image: aws-filebeat:prod-55c099e-1711711212333 
-    resources_test:
-      requests:
-        cpu: '0.03'
-        memory: 256Mi
-      limits:
-        cpu: '1.5'
-        memory: 512Mi
-
-  
   parameter_group_suffix: "latest"
   parameter_group_family: "latest"
   engine_version: ""

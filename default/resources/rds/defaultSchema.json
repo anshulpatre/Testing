@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "RDS Default Schema",
+  "title": "Resources Schema",
   "type": "object",
   "properties": {
     "resources": {
@@ -52,15 +52,14 @@
             "type": "integer",
             "default": 5432
           },
+          "auto_minor_version_upgrade": {
+            "type": "boolean",
+            "default": false
+          },
           "apply_immediately": {
             "type": "boolean",
             "default": true
-          },
-          "apply_immediately": {
-              "type": "boolean",
-              "default": true
-            },
-          
+          }
         },
         "required": [
           "service_suffix",

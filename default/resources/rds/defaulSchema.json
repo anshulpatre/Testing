@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Resources Schema",
+  "title": "RDS Default Schema",
   "type": "object",
   "properties": {
     "resources": {

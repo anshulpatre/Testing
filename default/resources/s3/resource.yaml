@@ -1,9 +1,53 @@
-resources:
-- bucket_prefix: "test"
-  force_destroy: false
-  acl: "private"
-  expiration: 0
-  object_ownership: "BucketOwnerEnforced"
-  versioning_configuration_status: "Disabled"
-  disable_ss3_s3: false
-    
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "S3 Default Schema",
+  "type": "object",
+  "properties": {
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "bucket_prefix": {
+            "type": "string",
+            "default": "test"
+          },
+          "force_destroy": {
+            "type": "boolean",
+            "default": false
+          },
+          "acl": {
+            "type": "string",
+            "default": "private"
+          },
+          "expiration": {
+            "type": "integer",
+            "default": 0
+          },
+          "object_ownership": {
+            "type": "string",
+            "default": "BucketOwnerEnforced"
+          },
+          "versioning_configuration_status": {
+            "type": "string",
+            "default": "Disabled"
+          },
+          "disable_ss3_s3": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "bucket_prefix",
+          "force_destroy",
+          "acl",
+          "expiration",
+          "object_ownership",
+          "versioning_configuration_status",
+          "disable_ss3_s3"
+        ]
+      }
+    }
+  },
+  "required": ["resources"]
+}

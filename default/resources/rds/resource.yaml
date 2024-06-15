@@ -21,9 +21,19 @@ resources:
         - child_list_item2
         
   parent_key:
-  - child_list:
+    child_list:
       - child_list_item1
       - child_list_item2
+
+  spec:
+    image: 425775279189.dkr.ecr.us-west-1.amazonaws.com/plivo/devops/aws-filebeat:prod-55c099e-1711711212333 # {"$imagepolicy": "devops:aws-filebeat"}
+    resources:
+      requests:
+        cpu: '0.03'
+        memory: 256Mi
+      limits:
+        cpu: '1.5'
+        memory: 512Mi
 
   
   parameter_group_suffix: "latest"

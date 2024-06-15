@@ -52,14 +52,15 @@
             "type": "integer",
             "default": 5432
           },
-          "auto_minor_version_upgrade": {
-            "type": "boolean",
-            "default": false
-          },
           "apply_immediately": {
             "type": "boolean",
             "default": true
-          }
+          },
+          "apply_immediately": {
+              "type": "boolean",
+              "default": true
+            },
+          
         },
         "required": [
           "service_suffix",

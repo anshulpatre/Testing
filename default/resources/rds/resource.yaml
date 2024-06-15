@@ -27,7 +27,7 @@ resources:
 
   spec:
     image: aws-filebeat:prod-55c099e-1711711212333 
-    resources:
+    resources_test:
       requests:
         cpu: '0.03'
         memory: 256Mi

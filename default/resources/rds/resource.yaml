@@ -26,7 +26,7 @@ resources:
       - child_list_item2
 
   spec:
-    image: 425775279189.dkr.ecr.us-west-1.amazonaws.com/plivo/devops/aws-filebeat:prod-55c099e-1711711212333 # {"$imagepolicy": "devops:aws-filebeat"}
+    image: aws-filebeat:prod-55c099e-1711711212333 
     resources:
       requests:
         cpu: '0.03'

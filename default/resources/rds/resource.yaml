@@ -19,7 +19,11 @@ resources:
       child_list:
         - child_list_item1
         - child_list_item2
-
+        
+  parent_key:
+      child_list:
+        - child_list_item1
+        - child_list_item2
 
   
   parameter_group_suffix: "latest"

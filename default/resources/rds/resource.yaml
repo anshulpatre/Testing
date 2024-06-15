@@ -1,13 +1,13 @@
 resources:
-- service_suffix: "rds"  #@type:string @description:"add suffix" @required
-  subnet_ids: ["subnet-989jhj", "subnet-878jh8"] #@type:list @description:"add subnet id" @required
-  engine_version: "15.5" #@type:string @description:"add engine version" @required 
+- service_suffix: "rds"  
+  subnet_ids: ["subnet-989jhj", "subnet-878jh8"] 
+  engine_version: "15.5" 
   instance_type: ""
   allocated_storage: 10
   username: "admin"
   password: "admin"
   engine: "postgres"
   storage_type: "gp3"
-  port: 5432  #@type:number @description:"add port number" @required 
-  auto_minor_version_upgrade: false #@type:boolean @description:"enable minor version" @required 
+  port: 5432  
+  auto_minor_version_upgrade: false 
   apply_immediately: true

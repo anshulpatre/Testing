@@ -54,7 +54,7 @@
           },
           "auto_minor_version_upgrade": {
             "type": "boolean",
-            "default": false
+            
           },
           "apply_immediately": {
             "type": "boolean",

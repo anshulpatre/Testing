@@ -14,7 +14,7 @@
           },
           "force_destroy": {
             "type": "boolean",
-            "default": false
+            "default": true
           },
           "acl": {
             "type": "string",

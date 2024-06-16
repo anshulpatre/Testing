@@ -22,6 +22,10 @@
           },
           "expiration": {
             "type": "integer",
+            "default": 0
+          },
+          "expiration_test": {
+            "type": "integer",
             "default": 7
           },
           "object_ownership": {

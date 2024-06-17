@@ -1,0 +1,5 @@
+resources:
+  policies:
+    name:
+      - "eee"
+    statements: []

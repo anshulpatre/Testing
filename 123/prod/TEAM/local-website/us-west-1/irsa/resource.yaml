@@ -1,4 +1,0 @@
-resources:
-  policies:
-    name: "test_!1"
-    statements: []

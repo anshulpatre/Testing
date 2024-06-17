@@ -1,8 +1,0 @@
-resources:
-  - bucket_prefix: test
-    force_destroy: ''
-    acl: private
-    expiration: '0'
-    object_ownership: BucketOwnerEnforced
-    versioning_configuration_status: Disabled
-    disable_ss3_s3: 'true'
